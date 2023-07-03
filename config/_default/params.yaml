@@ -18,7 +18,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo academic resume theme powered by Wowchemy website builder.'
+    description: ''
     twitter: 'wowchemy'
   analytics:
     google_analytics: ''
@@ -96,6 +96,7 @@ features:
       index_name: ''
       show_logo: false
   map:
+    engine: 2
     provider: ''
     api_key: ''
     zoom: 15
