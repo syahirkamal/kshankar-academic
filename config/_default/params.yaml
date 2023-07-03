@@ -1,132 +1,118 @@
 # SITE SETUP
-# Guide: https://wowchemy.com/docs/getting-started/
-# Documentation: https://wowchemy.com/docs/
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+# Documentation: https://sourcethemes.com/academic/
 
-# Appearance
+# Theme
+theme: "ocean"
+day_night: true
+font: ""
+font_size: "M"
 
-appearance:
-  theme_day: minimal
-  theme_night: minimal
-  font: minimal
-  font_size: L
+# Basic Info
+site_type: "Person"
+local_business_type: ""
+org_name: ""
+description: ""
 
-# SEO
+# Site Features
+highlight: true
+highlight_languages: 
+  - "r"
+math: false
+diagram: false
+privacy_pack: false
 
-marketing:
-  seo:
-    site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: ''
-    twitter: 'wowchemy'
-  analytics:
-    google_analytics: ''
-    baidu_tongji: ''
-    google_tag_manager: ''
-    microsoft_clarity: ''  
-  verification:
-    google: ''
-    baidu: ''
+# Contact details
+email: "kshankar@usm.my"
+phone: "+604 653 4632"
 
-# Site header
+address:
+  street: "National Advanced IPv6 Centre (NAv6), Level 6, School of Computer Sciences Building, Universiti Sains Malaysia"
+  city: "USM"
+  region: "Penang"
+  postcode: "11800"
+  country: "Malaysia"
+  country_code: "MY"
 
-header:
-  navbar:
-    enable: true
-    align: l
-    show_logo: true
-    show_language: false
-    show_day_night: true
-    show_search: true
-    highlight_active_link: true
-     email: "kshankar@usm.my"
-    phone: "+604 653 4632"
-    contact_links:
-      - icon: "twitter"
-        icon_pack: "fab"
-        name: "DM Me"
-        link: "https://twitter.com/sh_nk_r"
-      - icon: "skype"
-        icon_pack: "fab"
-        name: "Skype Me"
-        link: "skype:shankar.karuppayah?call"
-      - icon: "telegram"
-        icon_pack: "fab"
-        name: "Telegram Me"
-        link: "https://telegram.me/@skusm"
+coordinates:
+  latitude: "5.354623"
+  longitude: "100.301446"
 
-# Site footer
+directions: "Take the lift to the 6th floor and turn right at the entrance to head over to NAv6."
 
-footer:
-  copyright:
-    notice: '© {year} Shankar Karuppayah. This work is licensed under {license}'
-    license:
-      enable: true
-      allow_derivatives: false
-      share_alike: true
-      allow_commercial: false
+appointment_url: "https://calendly.com/kshankar_usm"
 
-# Localization
+contact_links:
+  - icon: "twitter"
+    icon_pack: "fab"
+    name: "DM Me"
+    link: "https://twitter.com/sh_nk_r"
 
-locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
-  address_format: en-us
+  - icon: "skype"
+    icon_pack: "fab"
+    name: "Skype Me"
+    link: "skype:shankar.karuppayah?call"
 
-# Site features
+  - icon: "telegram"
+    icon_pack: "fab"
+    name: "Telegram Me"
+    link: "https://telegram.me/@skusm"
 
-features:
-  syntax_highlighter:
-    theme_light: github-light
-    theme_dark: dracula
-  math:
-    enable: false
-  privacy_pack:
-    enable: false
-  repository:
-    url: 'https://github.com/<username>/<repository>'
-    content_dir: content
-    branch: main
-  avatar:
-    gravatar: false
-    shape: circle
-  comment:
-    provider: ''
-    disqus:
-      shortname: ''
-      show_count: true
-    commento:
-      url: ''
-    giscus:
-      repo: ''
-      repo_id: ''
-      category: ''
-      category_id: ''
-  search:
-    provider: wowchemy
-    algolia:
-      app_id: ''
-      api_key: ''
-      index_name: ''
-      show_logo: false
-  map:
-    engine: 2
-    provider: ''
-    api_key: ''
-    zoom: 15
+# Social
+sharing_image: "avatar.jpg"
+twitter: "sh_nk_r"
 
-# Extensions
+# Regional Settings
+date_format: "Jan 2, 2006"
+time_format: "3:04 PM"
+address_format: "de"
 
-extensions:
-  cms:
-    branch: main
-    local_backend: false
-  academicons:
-    enable: true
+# Advanced
+main_menu:
+  align: "l"
+  show_logo: true
 
-# Security
+reading_time: true
+section_pager: false
+docs_section_pager: true
+sharing: true
+link_authors: true
+abstract_length: 135
 
-security:
-  # Allow frame for embedding speaker notes in slides
-  allow_frame: true
+avatar:
+  gravatar: false
+  shape: "circle"
+
+address_formats:
+  en-us:
+    order:
+      - "street"
+      - "city"
+      - "region"
+      - "postcode"
+    delimiters:
+      - ", "
+      - ", "
+      - " "
+      - ""
+
+  en-gb:
+    order:
+      - "street"
+      - "city"
+      - "region"
+      - "postcode"
+    delimiters:
+      - ", "
+      - ", "
+      - ", "
+      - ""
+
+  de:
+    order:
+      - "street"
+      - "postcode"
+      - "city"
+    delimiters:
+      - "<br>"
+      - " "
+      - ""
