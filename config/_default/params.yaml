@@ -40,6 +40,21 @@ header:
     show_day_night: true
     show_search: true
     highlight_active_link: true
+     email: "kshankar@usm.my"
+    phone: "+604 653 4632"
+    contact_links:
+      - icon: "twitter"
+        icon_pack: "fab"
+        name: "DM Me"
+        link: "https://twitter.com/sh_nk_r"
+      - icon: "skype"
+        icon_pack: "fab"
+        name: "Skype Me"
+        link: "skype:shankar.karuppayah?call"
+      - icon: "telegram"
+        icon_pack: "fab"
+        name: "Telegram Me"
+        link: "https://telegram.me/@skusm"
 
 # Site footer
 
