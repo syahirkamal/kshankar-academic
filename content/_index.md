@@ -280,14 +280,14 @@ sections:
       phone: +604 653 4632
       appointment_url: 'https://calendly.com'
       address:
-        street: National Advanced IPv6 Centre (NAv6), Level 6, School of Computer Sciences Building, Universiti Sains Malaysia
-        city: USM
-        region: Penang
-        postcode: '11800'
-        country: Malaysia
-        country_code: MY
-        directions: Take the lift to the 6th floor and turn right at the entrance to head over to
-         NAv6.
+      street: National Advanced IPv6 Centre (NAv6), Level 6, School of Computer Sciences Building, Universiti Sains Malaysia
+      city: USM
+      region: Penang
+      postcode: '11800'
+      country: Malaysia
+      country_code: MY
+      directions: Take the lift to the 6th floor and turn right at the entrance to head over to NAv6.
+
       contact_links:
       - icon: twitter
         icon_pack: fab
