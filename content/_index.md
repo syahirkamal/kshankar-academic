@@ -203,7 +203,7 @@ sections:
       phone: +604 653 4632
       appointment_url: 'https://calendly.com'
       address:
-       street: National Advanced IPv6 Centre (NAv6), Level 6, School of Computer Sciences Building, Universiti Sains Malaysia
+        street: National Advanced IPv6 Centre (NAv6), Level 6, School of Computer Sciences Building, Universiti Sains Malaysia
         city: USM
         region: Penang
         postcode: '11800'
