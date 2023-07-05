@@ -173,8 +173,7 @@ sections:
           date_start :  "2019-01-23"
           date_end :  ""
           description :  ""
-
-
+    
     design:
       columns: '2'
   - block: collection
