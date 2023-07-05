@@ -210,8 +210,8 @@ sections:
         postcode: '11800'
         country: Malaysia
         country_code: MY
-      directions: Take the lift to the 6th floor and turn right at the entrance to head over to
-      NAv6.
+        directions: Take the lift to the 6th floor and turn right at the entrance to head over to
+         NAv6.
       contact_links:
       - icon: twitter
         icon_pack: fab
