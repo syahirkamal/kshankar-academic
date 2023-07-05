@@ -116,7 +116,7 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items: 
-        - organization : "German Academic Exchange Service (DAAD)"
+        - organization :  "German Academic Exchange Service (DAAD)"
           organization_url : "https://www.daad.de"
           title : "DAAD Scholarship"
           url : ""
