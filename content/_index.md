@@ -145,8 +145,10 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
+        - name: Cyber Security 
+          tag: Cyber Security
+        - name: Internet of Things
+          tag: Internet of Things 
         - name: Other
           tag: Demo
     design:
