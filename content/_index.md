@@ -45,7 +45,7 @@ sections:
           location = "Darmstadt, Germany"
           date_start = "2021-01-01"
           date_end = "2021-06-30"
-          description = """
+          description = ""
           Responsibilities include:
           
           * Managing (2) postdocs and (4) Ph.D. students within the area
