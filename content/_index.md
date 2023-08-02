@@ -87,7 +87,7 @@ sections:
             * Conducting simulation and evaluation of WMNs
     design:
       columns: '2'
-  - block: accomplishments
+  - block: Accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Accomplish&shy;ments'
